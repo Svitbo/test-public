@@ -27,4 +27,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: ${{ secrets.DEV_GCP_INSTANCE_NAME }}
+        run: echo ${{ secrets.DEV_GCP_INSTANCE_NAME }}
